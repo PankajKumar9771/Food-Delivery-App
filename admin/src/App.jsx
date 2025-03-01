@@ -8,7 +8,7 @@ import Add from "./pages/Add/Add";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const url = "http://localhost:4000";
+const url = "https://food-delivery-app-backend-vnzz.onrender.com";
 
 const App = () => {
   return (
