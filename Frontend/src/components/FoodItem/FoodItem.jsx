@@ -43,6 +43,7 @@ const FoodItem = ({ id, name, price, description, image }) => {
         )} */}
 
         {!cartItems[id] ? (
+          
           <img
             className="add"
             onClick={() => addCart(id)}

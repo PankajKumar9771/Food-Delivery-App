@@ -7,7 +7,7 @@ import { Navigate } from "react-router-dom";
 const LoginPop = ({ setShowLogin }) => {
   const [currState, setCurrState] = useState("Login");
   const { url, setToken } = useContext(StoreContext);
-  const [data, setData] = useState({
+  const [data, setData] = useState({    
     name: "",
     email: "",
     password: "",
